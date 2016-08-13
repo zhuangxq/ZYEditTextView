@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30978ADB1D5ED2C10074A8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30978ADA1D5ED2C10074A8F2 /* main.m */; };
+		30978ADE1D5ED2C10074A8F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30978ADD1D5ED2C10074A8F2 /* AppDelegate.m */; };
+		30978AE11D5ED2C10074A8F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30978AE01D5ED2C10074A8F2 /* ViewController.m */; };
+		30978AE41D5ED2C10074A8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30978AE21D5ED2C10074A8F2 /* Main.storyboard */; };
+		30978AE61D5ED2C10074A8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30978AE51D5ED2C10074A8F2 /* Assets.xcassets */; };
+		30978AE91D5ED2C10074A8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30978AE71D5ED2C10074A8F2 /* LaunchScreen.storyboard */; };
+		30978AF31D5ED3880074A8F2 /* ZYEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30978AF21D5ED3880074A8F2 /* ZYEditTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30978AD61D5ED2C10074A8F2 /* ZYEditTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYEditTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30978ADA1D5ED2C10074A8F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30978ADC1D5ED2C10074A8F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30978ADD1D5ED2C10074A8F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30978ADF1D5ED2C10074A8F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30978AE01D5ED2C10074A8F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30978AE31D5ED2C10074A8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30978AE51D5ED2C10074A8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30978AE81D5ED2C10074A8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30978AEA1D5ED2C10074A8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30978AF11D5ED3880074A8F2 /* ZYEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYEditTextView.h; sourceTree = "<group>"; };
+		30978AF21D5ED3880074A8F2 /* ZYEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYEditTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30978AD31D5ED2C10074A8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30978ACD1D5ED2C10074A8F2 = {
+			isa = PBXGroup;
+			children = (
+				30978AD81D5ED2C10074A8F2 /* ZYEditTextView */,
+				30978AD71D5ED2C10074A8F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30978AD71D5ED2C10074A8F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30978AD61D5ED2C10074A8F2 /* ZYEditTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30978AD81D5ED2C10074A8F2 /* ZYEditTextView */ = {
+			isa = PBXGroup;
+			children = (
+				30978AF01D5ED3880074A8F2 /* EditTextView */,
+				30978ADC1D5ED2C10074A8F2 /* AppDelegate.h */,
+				30978ADD1D5ED2C10074A8F2 /* AppDelegate.m */,
+				30978ADF1D5ED2C10074A8F2 /* ViewController.h */,
+				30978AE01D5ED2C10074A8F2 /* ViewController.m */,
+				30978AE21D5ED2C10074A8F2 /* Main.storyboard */,
+				30978AE51D5ED2C10074A8F2 /* Assets.xcassets */,
+				30978AE71D5ED2C10074A8F2 /* LaunchScreen.storyboard */,
+				30978AEA1D5ED2C10074A8F2 /* Info.plist */,
+				30978AD91D5ED2C10074A8F2 /* Supporting Files */,
+			);
+			path = ZYEditTextView;
+			sourceTree = "<group>";
+		};
+		30978AD91D5ED2C10074A8F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30978ADA1D5ED2C10074A8F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30978AF01D5ED3880074A8F2 /* EditTextView */ = {
+			isa = PBXGroup;
+			children = (
+				30978AF11D5ED3880074A8F2 /* ZYEditTextView.h */,
+				30978AF21D5ED3880074A8F2 /* ZYEditTextView.m */,
+			);
+			path = EditTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30978AD51D5ED2C10074A8F2 /* ZYEditTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30978AED1D5ED2C10074A8F2 /* Build configuration list for PBXNativeTarget "ZYEditTextView" */;
+			buildPhases = (
+				30978AD21D5ED2C10074A8F2 /* Sources */,
+				30978AD31D5ED2C10074A8F2 /* Frameworks */,
+				30978AD41D5ED2C10074A8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYEditTextView;
+			productName = ZYEditTextView;
+			productReference = 30978AD61D5ED2C10074A8F2 /* ZYEditTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30978ACE1D5ED2C10074A8F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zxq;
+				TargetAttributes = {
+					30978AD51D5ED2C10074A8F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UJQ99RNMA7;
+					};
+				};
+			};
+			buildConfigurationList = 30978AD11D5ED2C10074A8F2 /* Build configuration list for PBXProject "ZYEditTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30978ACD1D5ED2C10074A8F2;
+			productRefGroup = 30978AD71D5ED2C10074A8F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30978AD51D5ED2C10074A8F2 /* ZYEditTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30978AD41D5ED2C10074A8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30978AE91D5ED2C10074A8F2 /* LaunchScreen.storyboard in Resources */,
+				30978AE61D5ED2C10074A8F2 /* Assets.xcassets in Resources */,
+				30978AE41D5ED2C10074A8F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30978AD21D5ED2C10074A8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30978AE11D5ED2C10074A8F2 /* ViewController.m in Sources */,
+				30978ADE1D5ED2C10074A8F2 /* AppDelegate.m in Sources */,
+				30978AF31D5ED3880074A8F2 /* ZYEditTextView.m in Sources */,
+				30978ADB1D5ED2C10074A8F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30978AE21D5ED2C10074A8F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30978AE31D5ED2C10074A8F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30978AE71D5ED2C10074A8F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30978AE81D5ED2C10074A8F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30978AEB1D5ED2C10074A8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30978AEC1D5ED2C10074A8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30978AEE1D5ED2C10074A8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYEditTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.ZYEditTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30978AEF1D5ED2C10074A8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYEditTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.ZYEditTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30978AD11D5ED2C10074A8F2 /* Build configuration list for PBXProject "ZYEditTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30978AEB1D5ED2C10074A8F2 /* Debug */,
+				30978AEC1D5ED2C10074A8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30978AED1D5ED2C10074A8F2 /* Build configuration list for PBXNativeTarget "ZYEditTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30978AEE1D5ED2C10074A8F2 /* Debug */,
+				30978AEF1D5ED2C10074A8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30978ACE1D5ED2C10074A8F2 /* Project object */;
+}
